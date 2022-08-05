@@ -1,0 +1,4 @@
+    Cluster com vários brokers
+        Broker
+            Tópico, exemplos: nova_compra, email_enviado, compra_sem_fraude
+

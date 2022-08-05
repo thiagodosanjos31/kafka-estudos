@@ -1,0 +1,14 @@
+Ex: https://www.youtube.com/watch?v=G6Tcy7hNdA8&ab_channel=AluraCursosOnline
+Sistema PUB/SUB
+    GERANDO EVENTOS / CONSUMINDO EVENTOS
+
+    Ex: site de compra e vendas
+        cadastro de produto << PUBLICADOR
+        necessário notificar a search engine << CONSUMIDOR
+        passar para um sistema de validação << CONSUMIDOR
+
+         PRODUTO CADASTRADO   >>>    TÓPICO     <<< SEARCH ENGINE CONSUMINDO E SISTEMA DE VALIDAÇÃO CONSUMINDO
+                             (Podemos colocar partições
+                             para balancear a carga)
+
+        
